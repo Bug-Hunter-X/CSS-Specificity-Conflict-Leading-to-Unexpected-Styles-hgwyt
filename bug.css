@@ -1,0 +1,1 @@
+The following CSS code snippet demonstrates a common issue where specificity conflicts can lead to unexpected styling behavior.  The `#myDiv p` selector is more specific than the `.myClass p` selector, therefore, the styles defined by `#myDiv p` will override the styles of `.myClass p`, even if `.myClass p` is defined later in the stylesheet.
